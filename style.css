@@ -1,0 +1,22 @@
+/* common css */
+:root{
+    --primary-color:#059473;
+    --black:#000;
+    --white:#fff;
+    --lightText:#059473;
+    --max-width:1200px;
+    --light-gray:#f1f1f1;
+    --swiper-navigation-size:25px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+     height: 100%;
+     width: 100%;
+}
