@@ -45,3 +45,11 @@ closeSearch.onclick = () => {
   searchBox.classList.remove("active");
   searchBtn.classList.remove("hide");
 };
+
+// Hero Section //
+
+new Swiper('.mySwiper',{
+  loop:true,
+  autoplay:{delay:3000,disableonInteraction:false},
+  pagination:{el:'.swiper-pagination',clickable:true},
+})
